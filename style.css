@@ -1,0 +1,49 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #222;
+}
+
+.image {
+	position: relative;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+}
+
+img {
+	width: 60%;
+}
+
+
+.links {
+	width: 100%;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	font-size: 48px;
+	display: inline;
+	padding: 80px;
+}
+
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+  img {
+    width: 100%;
+  }
+  li {
+	display: list-item;
+	padding: 0;
+  }
+}
